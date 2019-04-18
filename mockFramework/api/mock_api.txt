@@ -1,0 +1,10 @@
+cim.msg%3Areply
+setFlag
+MongateCsSpMultixMtSend
+sendMessageByUsers
+getModelContent
+sendSMS.action
+MongateCsSpSendSmsNew
+sendsms
+xml
+json

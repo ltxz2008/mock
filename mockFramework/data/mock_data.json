@@ -1,0 +1,80 @@
+{
+    "cim.msg%3Areply": {
+        "status": 202,
+        "headers": {
+            "content-type": "text/json;charset=UTF-8"
+        },
+        "body": {
+            "code": "FA_OVERFLOW",
+            "var": {}
+        }
+    },
+    "setFlag": {
+        "status": 202,
+        "headers": {
+            "content-type": "text/json;charset=UTF-8"
+        },
+        "body": {
+            "code": "FA_FORBIDDEN",
+            "var": {}
+        }
+    },
+    "MongateCsSpMultixMtSend": {
+        "status": 200,
+        "headers": {
+            "content-type": "text/xml;charset=UTF-8"
+        },
+        "body": "<request><parameters><id>1</id></parameters></request>"
+    },
+    "sendMessageByUsers": {
+        "status": 200,
+        "headers": {
+            "content-type": "text/plain;charset=UTF-8"
+        },
+        "body": "test sendMessageByUsers OK!!"
+    },
+    "getModelContent": {
+        "status": 200,
+        "headers": {
+            "content-type": "text/plain;charset=UTF-8"
+        },
+        "body": "test getModelContent OK!!"
+    },
+    "sendSMS.action": {
+        "status": 200,
+        "headers": {
+            "content-type": "text/xml;charset=UTF-8"
+        },
+        "body": "{'statusCode':'000000','templateSMS':{'dateCreated':'20130201153809','smsMessageSid':' ff8080813c373cab013c94b0f0512345'}}"
+    },
+    "MongateCsSpSendSmsNew": {
+        "status": 200,
+        "headers": {
+            "content-type": "text/plain;charset=UTF-8"
+        },
+        "body": "test MongateCsSpSendSmsNew OK!!"
+    },
+    "sendsms":{
+	    "status": 200,
+        "headers": {
+            "content-type": "text/plain;charset=UTF-8"
+        },
+        "body": "test yun sendsms OK!!"
+    },
+    "json":{
+	    "status": 200,
+        "headers": {
+            "content-type": "text/json;charset=UTF-8"
+        },
+        "body": "{name:abc,addr:{addr1:a,addr2:b}}"
+    },
+	"xml":{
+	    "status": 200,
+        "headers": {
+            "content-type": "text/xml;charset=UTF-8"
+        },
+        "body": "<test>abc</test>"
+    }
+}
+
+
