@@ -1,1 +1,1 @@
-该Mock框架支持Rest和
+该Mock框架支持Rest和Dubbo
